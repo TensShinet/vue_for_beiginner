@@ -9,6 +9,8 @@
     <div @click="goToGoods">
         跳转到详情页面
     </div>
+    <!-- 命名式路由 -->
+    <router-link :to="{ name: 'goods' }">其实我也不想打代码</router-link>
   	<router-view></router-view>
   </div>
 </template>
