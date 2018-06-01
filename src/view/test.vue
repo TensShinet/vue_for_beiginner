@@ -1,13 +1,15 @@
-<template lang="html">
+<template>
   <div class="test">
-      I love you {{$route.params.testId}}
-      I love you {{$route.params.testName}}
+  	This is id: {{$route.params.testId}}
   </div>
 </template>
 <script>
 export default {
+  data() {
+    return {
+      msg: 'hello vue'
+    }
+  }
 }
 </script>
-
-<style lang="css">
-</style>
+<style scoped></style>

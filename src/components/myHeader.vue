@@ -3,7 +3,6 @@
         hello world8888S, I'm header
     </div>
 </template>
-
 <script>
 export default {
     name: 'myHeader',
