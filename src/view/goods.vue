@@ -1,15 +1,13 @@
-<template lang="html">
-    <div class="">
-          this is goods page
-          
-          <span>id is {{$route.query.goodsId}}</span>
-    </div>
+<template>
+	<div class="goods">
+		This is goods
+		<span>{{$route.query.goodsId}}</span>
+	</div>
 </template>
-
 <script>
 export default {
-}
-</script>
 
-<style lang="css">
-</style>
+}
+
+</script>
+<style scoped></style>
